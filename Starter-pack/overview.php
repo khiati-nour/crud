@@ -15,8 +15,8 @@
 <form method="post">
 <div class="input-group">
     <div class="form-outline">
-        <input type="search" name="search_input" id="form1" class="form-control" />
-        <label class="form-label" for="form1">Search</label>
+        <input type="search" name="search_input" value="" placeholder="Search" id="form1" class="form-control" />
+
     </div>
 
     <button type="submit" name="search" class="btn btn-primary"> search </button>
