@@ -9,9 +9,11 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <title>Goodcard - track your collection of Pokémon cards</title>
 </head>
-<body>
+<body style="margin:30px;">
 
-<h1>Goodcard - track your collection of Pokémon cards</h1>
+<h1 class ="row justify-content-center">Goodcard - track your collection of Pokémon cards</h1>
+
+
 <form method="post">
 <div class="input-group">
     <div class="form-outline">

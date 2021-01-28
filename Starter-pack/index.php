@@ -13,6 +13,10 @@ require_once 'config.php';
 require_once 'classes/DatabaseManager.php';
 require_once 'classes/CardRepository.php';
 
+
+
+
+
 $databaseManager = new DatabaseManager("localhost", "root", "","pokemon");
 $databaseManager->connect();
 

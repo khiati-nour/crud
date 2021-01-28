@@ -55,11 +55,11 @@ class CardRepository
     }
 
     public function update()
-    {
+    {   $con = $this->databaseManager->mysqli;
         $id= $_POST['id_edit'];
-        $name_edit=$_POST['name_edit'];
-        $type_edit=$_POST['type_edit'];
-        $rarity_edit=$_POST['rarity_edit'];
+        $name_edit= $con->real_escape_string($_POST['name_edit']);
+        $type_edit= $con->real_escape_string($_POST['type_edit']);
+        $rarity_edit= $con->real_escape_string($_POST['rarity_edit']);
         $result =$this->databaseManager->mysqli->query("UPDATE cards
         SET card_name = '$name_edit' ,type= '$type_edit',rarity='$rarity_edit'
         WHERE id = '$id';");

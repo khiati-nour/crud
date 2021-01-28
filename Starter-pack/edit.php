@@ -50,7 +50,7 @@ if (isset($_POST['update'])){
 <h1>Goodcard - track your collection of Pokémon cards</h1>
 
 <form method="post">
-       <input type="text" name="id_edit" value = "<?php echo $id;?>">
+       <input type="hidden" name="id_edit" value = "<?php echo $id;?>">
     <div class="form-row">
         <div class="col-7">
             <input type="text" name="name_edit" value="<?php echo $name;?>" class="form-control" placeholder="Card Name">
